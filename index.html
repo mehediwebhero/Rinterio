@@ -69,7 +69,7 @@
         </div>
       </div>
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <div tabindex="0" role="button" class="rounded-full lg:hidden">
           <i class="fa fa-bars bg-white p-4 rounded-full " aria-hidden="true"></i>
         </div>
         <ul tabindex="0"
@@ -106,9 +106,10 @@
     <section class="container mx-auto py-7">
       <div>
         <div class="hero bg-base-200 min-h-screen">
-          <div class="hero-content flex-col items-center lg:flex-row ">
+          <div class="hero-content flex-col  lg:flex-row ">
             <div class="space-y-5">
-              <img src="images/Vector.png" alt="">
+              <div>
+                <img src="images/Vector.png" alt="">
               <button class="btn bg-btn-3rd bg-white hover:bg-white font-bold rounded-full"><i class="fa fa-arrow-right"
                   aria-hidden="true"></i> About Us</button>
               <h1 class="text-4xl font-bold text-[#212121]"> We design thoughtful, <br> liveable spaces</h1>
@@ -117,37 +118,82 @@
                 characteristics, history, and aesthetic appeal.
               </p>
               <!-- card-design -->
-              <div class="space-y-3">
-                <div class="card lg:card-side bg-base-100 shadow-md py-2 lg:px-5">
+              <div class="space-y-2 ">
+                <!-- card-1 -->
+                <div class=" h-[130px] card lg:card-side bg-base-100 shadow-md py-0 lg:px-5">
                   <figure>
                     <img src="images/commercial.png" alt="Album" />
                   </figure>
                   <div class="card-body">
                     <h2 class="card-title font-extrabold text-xl">Commercial</h2>
                     <p class="font-medium text-[#737373]">Residential design is an art that aims to create a house that
-                      looks good and, more importantly, gives us the ability to live a comfortable life.</p>
-
+                      looks good.</p>
                   </div>
                 </div>
-                <div class="card lg:card-side bg-base-100 shadow-md py-2 lg:px-5">
+                <!-- card-2 -->
+                <div class="h-[130px] card lg:card-side bg-base-100 shadow-md py-0 lg:px-5">
                   <figure>
                     <img src="images/residential.png" alt="Album" />
                   </figure>
                   <div class="card-body">
                     <h2 class="card-title font-extrabold text-xl">Residential</h2>
                     <p class="font-medium text-[#737373]">The creation of living spaces that cater to the unique needs,
-                      lifestyles and aesthetic preferences of the individuals or families who occupy them.</p>
+                      lifestyles or families who occupy them.</p>
                   </div>
                 </div>
               </div>
+              </div>            
             </div>
-            <img src="images/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <img src="images/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl"/>
+            </div>
+            
           </div>
         </div>
 
       </div>
     </section>
     <!--about-section-end -->
+   
+<!-- gallery-section-start -->
+<section class="container mx-auto">
+  <div>
+    <div class="hero bg-base-600 ">
+      <div class=" hero-content flex-col md:flex-row-reverse items-center ">
+        <div>
+          <h1 class="text-5xl font-bold">Interior Design</h1>
+          <p class="py-2">
+            An image description is a short explanation of a photo that can add depth to a piece of content.
+          </p>
+          <button class="btn bg-btn-primary">View More</button>
+        </div>
+        
+        <div>
+          <!-- image-content -->
+          <div class="grid grid-cols-2 grid-rows-2 gap-4 w-5/6">
+            <div class="h-40 bg-gradient-to-r from-red-400 to-red-50 rounded-lg ">
+            </div>
+            <!-- image -->
+            <div class=" bg-orange-50 rounded-xl row-span-1 ">
+                <img class="mx-auto my-5" src="images/article1.png" alt="">
+            </div>
+            <div class=" bg-orange-50 rounded-xl row-span-1">
+                <img class="mx-auto my-5" src="images/article2.png" alt="">
+            </div>
+            <div class="h-40 bg-gradient-to-r from-red-400 to-red-50 rounded-lg ">
+    
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- gallery-section-end-->
 
     <!--working-process-section-start-->
     <section class=" container mx-auto my-24 ">
@@ -215,11 +261,11 @@
         </div>
 
         <div>
-          <div class=" ">
+          <div class="flex-1 ">
             <!-- card -->
-            <div class="grid grid-cols-3  gap-4 ">
+            <div class=" mt-8 grid md:grid-cols-1 md:w-full lg:grid-cols-4  gap-4 justify-center ">
               <!-- c1 -->
-              <div class="card lg:card-side bg-base-100 shadow-xl px-5 col-span-2">
+              <div class="card lg:card-side bg-base-100  shadow-xl px-5 md:2 lg:col-span-3">
                 <figure>
                   <img src="images/img1.png" alt="Album" />
                 </figure>
@@ -239,43 +285,43 @@
                 </div>
               </div>
               <!-- c2 -->
-              <div class="card bg-base-100 w-96 shadow-xl py-4 ">
+              <div class="card bg-base-100 lg:w-64 shadow-xl py-4 px-5 ">
                 <figure>
                   <img src="images/img2.png" alt="Shoes" />
                 </figure>
               </div>
               <!-- c3-->
-              <div class="card bg-base-100 w-72 shadow-xl p-4 ">
+              <div class="card bg-base-100 w-88 shadow-xl p-4 ">
                 <figure>
                   <img src="images/img3.png" alt="Shoes" />
                 </figure>
               </div>
               <!-- c4 -->
-              <div class="card lg:card-side bg-base-100 w-96 shadow-xl px-2 col-span-1 ">
+              <div class="card lg:card-side bg-base-100 md:64 shadow-xl px-2 py-5 md:col-span-2 lg:w-88 ">
                 <figure>
-                  <img src="images/img1.png" alt="Album" />
+                  <img src="images/img5.png" alt="Album" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title"> Commercial</h2>
-                  <p>Residential design is an art that aims to create a house that looks good and, more importantly, gives
-                    us the ability to live a comfortable life.</p>
+                  <p>Residential design is an art that aims to create a house that looks good.</p>
                   <div class="card-actions">
                     <div class="flex space-x-2">
                       <h5 class="text-[18px] font-bold "><a href="">View Details</i> </a></h5>
-                      <h5><i class="fa fa-arrow-right bg-btn-primary p-2 rounded-full -rotate-45 " aria-hidden="true"></i>
+                      <h5><i class="fa fa-arrow-right bg-btn-primary p-2 rounded-full -rotate-45 "
+                          aria-hidden="true"></i>
                       </h5>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- c5 -->
-              <div class="card bg-base-100 w-72 shadow-xl py-2 ">
+              <div class="card bg-base-100 lg:w-64 shadow-xl py-2 px-5  ">
                 <figure>
                   <img src="images/img2.png" alt="Shoes" />
                 </figure>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
